@@ -40,6 +40,10 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 ### Comment Available
 <img width="668" alt="CleanShot 2022-12-17 at 21 27 40@2x" src="https://user-images.githubusercontent.com/54872601/208244250-95905c27-8f2b-4893-9c50-d6da632f0265.png">
 
+### Limitation
+- Accuracy and generation may be various in every trial.
+- Incorrect conversion to Pixel, e.g., width: 300 => w-300, where suppose only w-[300px] can work fine. Of course, the scaling is incorrect too.
+- Limited tokens.
 
 ## License
 MIT
