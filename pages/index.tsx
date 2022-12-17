@@ -10,8 +10,8 @@ export default function Home() {
 
   const framework = [
     { id: 1, name: 'TailwindCSS', unavailable: false },
+    { id: 2, name: 'Bootstrap (Coming Soon)', unavailable: true }
   ]
-  const [selectedFW, setSelectedFW] = useState(framework[0])
 
   const [mode, setMode] = useState('manual')
 
@@ -132,7 +132,7 @@ export default function Home() {
                   defaultLanguage="swift"
                   defaultValue={input}
                   onChange={(value) => (
-                    setInput(value)
+                    setInput(`${value}`)
                   )}
                   className="resize-y"
                 />
@@ -154,7 +154,7 @@ export default function Home() {
                         pretty(render)
                       }
                       onChange={(value) => (
-                        setRender(value)
+                        setRender(`${value}`)
                       )}
                       className="resize-y"
                     />

@@ -14,8 +14,6 @@ export default async function handler(
 
   const input = req.body.input;
 
-  console.log(input)
-
   const response = await openai.createCompletion({
     model: "code-davinci-002",
     prompt: "```swift\n$" + input + "\n```\n\n# Convert to TailwindCSS. Body must in full screen (w-screen, h-screen), and use div to include content. System image use Fontawesome to replace. Add comment to explain code.\n\n```html\n<html>\n<head>\n</head>\n",
