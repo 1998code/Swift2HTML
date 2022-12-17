@@ -1,7 +1,7 @@
 # Swift2HTML - Convert Swift code to HTML 
 ### Powered by OpenAI GPT Codex
 
-<img width="2304" alt="Xnapper-2022-12-17-18 38 56" src="https://user-images.githubusercontent.com/54872601/208243836-bbdd70ad-4944-414b-a624-771e94f02994.png">
+<img width="1778" alt="Xnapper-2022-12-17-18 38 56" src="https://user-images.githubusercontent.com/54872601/208244019-91b7d5e3-927d-405e-979c-a5ad1266b745.png">
 
 ## Getting Started
 
