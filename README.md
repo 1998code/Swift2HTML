@@ -3,11 +3,21 @@
 
 <img width="1778" alt="Xnapper-2022-12-17-18 38 56" src="https://user-images.githubusercontent.com/54872601/208244019-91b7d5e3-927d-405e-979c-a5ad1266b745.png">
 
-## Environment
+## Supported Frameworks
 ![image](https://user-images.githubusercontent.com/54872601/208244837-4fa0e73e-d2ed-4194-a586-564c67d21a7e.png)
+<img height="200px" src="https://user-images.githubusercontent.com/54872601/208245351-78106a3a-0be2-4ff2-bbcc-861659849f42.png" />
+
+## Features
+- [x] Swift Input
+- [x] HTML Output
+- [x] HTML Preview
+- [x] Light / Dark Mode
+- [x] AutoPilot (Refresh per input) / Manual Update (Default)
+- [x] FontAwesome Icon Replacement
+- [x] OpenAI GPT Codex Integration
+- [ ] Select CSS Framework (Reserved)
 
 ## Getting Started
-
 First, run the development server:
 
 ```bash
