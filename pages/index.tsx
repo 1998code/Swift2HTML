@@ -167,7 +167,7 @@ export default function Home() {
           </div>
 
           <footer className="fixed bottom-0 w-full text-gray-500 dark:text-gray-300 text-center bg-white/80 dark:bg-black/80 filter backdrop-blur-md py-5 font-mono">
-            &lt;Made by MING (<a href="https://github.com/1998code" target="_blank">@1998code</a>) with <i className="fa fa-heart text-red-500" /> and Open Source at <a href="https://github.com/1998code/Swift2HTML" target="_blank" className="text-black dark:text-white font-semibold"><i className="fab fa-github" /></a> /&gt;
+            &lt;Made by MING (<a href="https://github.com/1998code" target="_blank" rel="noreferrer">@1998code</a>) with <i className="fa fa-heart text-red-500" /> and Open Source at <a href="https://github.com/1998code/Swift2HTML" target="_blank" rel="noreferrer" className="text-black dark:text-white font-semibold"><i className="fab fa-github" /></a> /&gt;
           </footer>
 
         </div>
