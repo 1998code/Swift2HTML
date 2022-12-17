@@ -66,7 +66,7 @@ export default function Home() {
         <div className="bg-white dark:bg-black text-black dark:text-white w-screen h-screen">
 
           <nav className="flex flex-wrap justify-between items-center gap-3 md:gap-6 px-3 py-1.5">
-            <h1 className="text-xl font-bold font-sans">
+            <h1 className="text-xl font-bold font-sans select-none hover:scale-105 transition-all">
               <span className="text-orange-500">
                 <i className="fab fa-swift mr-2" />
                 Swift
@@ -89,26 +89,26 @@ export default function Home() {
             </div>
 
             <div className="flex gap-2 text-sm">
-              <div className="bg-emerald-100 text-emerald-800 dark:bg-emerald-800 dark:text-white font-bold rounded-xl p-2 h-8 flex items-center">
+              <div className="bg-emerald-100 text-emerald-800 dark:bg-emerald-800 dark:text-white font-bold rounded-xl p-2 h-8 flex items-center hover:scale-105 transition-all">
                 <i className="fa fa-circle-info mr-1" />
                 Experimental
                 1.0.0
               </div>
               
-              <button className="bg-blue-200 text-blue-800 dark:bg-indigo-800 dark:text-indigo-200 rounded-xl p-2 h-8 flex items-center" onClick={() => setMode(mode == 'manual' ? 'auto' : 'manual')}>
+              <a href="https://github.com/1998code/Swift2HTML" className="bg-blue-200 text-blue-800 dark:bg-indigo-800 dark:text-indigo-200 rounded-xl p-2 h-8 flex items-center hover:scale-105 transition-all" onClick={() => setMode(mode == 'manual' ? 'auto' : 'manual')}>
                 <i className={`fa ${mode == 'manual' ? 'fa-hand' : 'fa-play animate-pulse'}`}></i>
                 <span className="hidden md:inline font-semibold ml-1">{mode == 'manual' ? 'Manual' : 'AutoPilot'}</span>
-              </button>
+              </a>
 
               <button
-                className="bg-red-200 text-red-800 dark:bg-red-800 dark:text-red-200 rounded-xl p-2 w-8 h-8 flex items-center justify-center"
+                className="bg-red-200 text-red-800 dark:bg-red-800 dark:text-red-200 rounded-xl p-2 w-8 h-8 flex items-center justify-center hover:scale-105 transition-all"
                 onClick={conversion}
               >
                 <i className={`fa fa-sync-alt ${loading ? 'animate-spin' : ''}`}></i>
               </button>
 
               <button
-                className="bg-orange-100 text-orange-500 dark:bg-blue-800 dark:text-orange-300 rounded-xl p-2 h-8 flex items-center"
+                className="bg-orange-100 text-orange-500 dark:bg-blue-800 dark:text-orange-300 rounded-xl p-2 h-8 flex items-center hover:scale-105 transition-all"
                 onClick={() => setDark(!dark)}
               >
                 <i className={`fa ${dark ? 'fa-moon' : 'fa-sun'}`}></i>
