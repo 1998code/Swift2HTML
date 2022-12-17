@@ -22,7 +22,11 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 ## Dark Mode
-<img width="1574" alt="CleanShot 2022-12-17 at 21 25 26@2x" src="https://user-images.githubusercontent.com/54872601/208244142-1ce0a5b9-4c91-418e-87d0-c4acbdf8ea77.png">
+<img width="318" alt="CleanShot 2022-12-17 at 21 26 41@2x" src="https://user-images.githubusercontent.com/54872601/208244247-b683e23d-79e1-4705-a597-e44828d1dce6.png">
+
+### Comment Available
+<img width="668" alt="CleanShot 2022-12-17 at 21 27 40@2x" src="https://user-images.githubusercontent.com/54872601/208244250-95905c27-8f2b-4893-9c50-d6da632f0265.png">
+
 
 ## License
 MIT
