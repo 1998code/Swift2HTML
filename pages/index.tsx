@@ -92,7 +92,7 @@ export default function Home() {
               <a href="https://github.com/1998code/Swift2HTML" className="bg-emerald-100 text-emerald-800 dark:bg-emerald-800 dark:text-white font-bold rounded-xl p-2 h-8 flex items-center hover:scale-105 transition-all">
                 <i className="fa fa-circle-info mr-1" />
                 Experimental
-                1.0.0
+                1.0.2
               </a>
               
               <button className="bg-blue-200 text-blue-800 dark:bg-indigo-800 dark:text-indigo-200 rounded-xl p-2 h-8 flex items-center hover:scale-105 transition-all" onClick={() => setMode(mode == 'manual' ? 'auto' : 'manual')}>
