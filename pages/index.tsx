@@ -81,7 +81,7 @@ export default function Home() {
             <div className="bg-indigo-100 text-indigo-800 dark:bg-gray-800 dark:text-indigo-100 text-sm font-semibold rounded-xl p-2 h-8 flex items-center flex-1">
               <i className="fab fa-css3 mr-1" />
               Framework:
-              <select className="bg-transparent underline decoration-dotted underline-offset-4 select-none" onChange={(e) => setSelectedFW(framework.find(f => f.id === parseInt(e.target.value)))}>
+              <select className="bg-transparent underline decoration-dotted underline-offset-4 select-none">
                 {framework.map(f => (
                   <option key={f.id} value={f.id} disabled={f.unavailable}>{f.name}</option>
                 ))}
