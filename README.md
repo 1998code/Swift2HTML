@@ -3,6 +3,9 @@
 
 <img width="1778" alt="Xnapper-2022-12-17-18 38 56" src="https://user-images.githubusercontent.com/54872601/208244019-91b7d5e3-927d-405e-979c-a5ad1266b745.png">
 
+## Environment
+![image](https://user-images.githubusercontent.com/54872601/208244837-4fa0e73e-d2ed-4194-a586-564c67d21a7e.png)
+
 ## Getting Started
 
 First, run the development server:
