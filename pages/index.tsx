@@ -9,8 +9,9 @@ export default function Home() {
   const [dark, setDark] = useState(false)
 
   const framework = [
-    { id: 1, name: 'TailwindCSS', unavailable: false },
-    { id: 2, name: 'Bootstrap (Coming Soon)', unavailable: true }
+    { id: 1, name: 'TailwindCSS + FontAwesome', unavailable: false },
+    { id: 2, name: 'Bootstrap (Coming Soon)', unavailable: true },
+    { id: 3, name: 'Material Design (Coming Soon)', unavailable: true }
   ]
 
   const [mode, setMode] = useState('manual')
@@ -91,8 +92,7 @@ export default function Home() {
             <div className="flex gap-2 text-sm">
               <a href="https://github.com/1998code/Swift2HTML" className="bg-emerald-100 text-emerald-800 dark:bg-emerald-800 dark:text-white font-bold rounded-xl p-2 h-8 flex items-center hover:scale-105 transition-all">
                 <i className="fa fa-circle-info mr-1" />
-                Experimental
-                1.0.2
+                1.0.4
               </a>
               
               <button className="bg-blue-200 text-blue-800 dark:bg-indigo-800 dark:text-indigo-200 rounded-xl p-2 h-8 flex items-center hover:scale-105 transition-all" onClick={() => setMode(mode == 'manual' ? 'auto' : 'manual')}>
@@ -101,10 +101,11 @@ export default function Home() {
               </button>
 
               <button
-                className="bg-red-200 text-red-800 dark:bg-red-800 dark:text-red-200 rounded-xl p-2 w-8 h-8 flex items-center justify-center hover:scale-105 transition-all"
+                className="bg-red-200 text-red-800 dark:bg-red-800 dark:text-red-200 rounded-xl p-2 h-8 flex items-center justify-center hover:scale-105 transition-all"
                 onClick={conversion}
               >
                 <i className={`fa fa-sync-alt ${loading ? 'animate-spin' : ''}`}></i>
+                <span className="hidden md:inline font-semibold ml-1">{loading ? 'Running' : 'Run'}</span>
               </button>
 
               <button
